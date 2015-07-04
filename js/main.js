@@ -28,7 +28,7 @@ app.config(['$routeProvider', function ($routeProvider) {
         //resume
         .when("/resume", {templateUrl: "partials/resume.html", controller: "PageCtrl"})
         // else 404
-        .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
+        .otherwise("/404", {templateUrl: "partials/404.html"});
 
 }]);
 
