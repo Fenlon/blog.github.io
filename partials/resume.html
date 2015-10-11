@@ -382,9 +382,21 @@
                                     <p>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         因为公司所有的项目都是采用同一种架构，所以两个项目放在一起来说，所使用的技术都是一样的，只是业务不同。
+                                    </p>
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         大钱代扣代付项目主要是为第三方P2P公司开发的类似以前的POS机一样的移动POS App（主要提供支付功能），系统提供平台供其它公司接入，系统分为api，admin，app（ios，android）三个开发方向。其中主要功能有，平台管理（商户，app用户，角色，权限等的管理），代付管理，代扣管理，对账管理(FTP上传方式)等。
+                                    </p>
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         大钱理财项目类似于当前的拍拍贷一样的项目，用户可以在平台上投标收益，商户可以在平台上投放资产或者债券等，系统分为三层，前段展示层（对外网页，ios，android，api），中层平台管理，系统平台管理。其他和上面差不多，都是依赖于公司的基础服务系统。
+                                    </p>
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         基础服务系统大致有10多个，如商户服务系统，卡服务系统，网管服务系统，交易服务系统，用户服务系统，kms加密服务系统等。服务系统之间的调用使用Hessian进行远程接口调用。
+                                    </p>
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         主要涉及到的技术有SpringMVC 、Spring 、Mybatis 、Hessian 、OSGI；前后端数据交互为Json格式 ，系统集成了redis集群和主备，mongodb集群，以及Nginx反向代理服务。
                                     </p>
                                 </a>
