@@ -27,7 +27,6 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when("/project", {templateUrl: "partials/project.html", controller: "PageCtrl"})
         //resume
         .when("/resume", {templateUrl: "partials/resume.html", controller: "PageCtrl"})
-        .when("/resume2", {templateUrl: "resources/resume/Fenlon-Personal-Resume.pdf", controller: "PageCtrl"})
         //404
         .when("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"})
         // 重定向到404
