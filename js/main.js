@@ -16,7 +16,7 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
 
     $routeProvider
-        // Home
+    // Home
         .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
         .when("/home", {templateUrl: "partials/home.html", controller: "PageCtrl"})
         //About
@@ -27,6 +27,7 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when("/project", {templateUrl: "partials/project.html", controller: "PageCtrl"})
         //resume
         .when("/resume", {templateUrl: "partials/resume.html", controller: "PageCtrl"})
+        .when("/resume2", {templateUrl: "resources/resume/Fenlon-Personal-Resume.pdf", controller: "PageCtrl"})
         //404
         .when("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"})
         // 重定向到404
